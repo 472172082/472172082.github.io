@@ -1,325 +1,977 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:card" content="" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            font-size: 18px;
-        }
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" />
 
-        h {
-            color: white;
-        }
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css" />
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="css/icomoon.css" />
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
 
-        li {
-            list-style: none;
-        }
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="css/style.css" />
 
-        #container {
-            margin: 20px;
-            border: 2px solid #D9D9D9;
-            background-color: #F5F6FB;
-            padding: 20px;
-        }
+        <!-- Modernizr JS -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- FOR IE9 below -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="fh5co-loader"></div>
 
-        header h1 {
-            background-color: #337AB7;
-            padding-left: 100px;
-            margin-bottom: 5px;
-            color: white;
-            height: 80px;
-            line-height: 80px;
-            font-size: 80px;
-            border-radius: 0px 40px 40px 0px;
-            width: 900px;
-            vertical-align: middle;
-        }
-
-        section {
-            position: relative;
-            border: 2px solid #D9D9D9;
-            margin-top: 50px;
-            padding-top: 35px;
-        }
-
-        section:nth-of-type(1) {
-            padding-top: 30px;
-            border: 2px solid #D9D9D9;
-            margin-top: 30px;
-        }
-
-        section:nth-of-type(1)>div:nth-of-type(1) {
-            display: inline-block;
-            width: 200px;
-        }
-
-        section:nth-of-type(1)>div:nth-of-type(2) {
-            display: inline-block;
-            width: 700px;
-            vertical-align: middle;
-
-        }
-
-        .tab-label {
-            position: absolute;
-            left: -2;
-            top: -24px;
-        }
-
-        .basic-info {
-            margin-top: 30px;
-        }
-
-        .basic-info span {
-            display: inline-block;
-            width: 218px;
-            margin-left: 10px;
-        }
-
-        .skills li {
-            margin-top: 6px;
-        }
-        .experice{
-            margin-left: 50px;
-        }
-        .experice dd{
-            margin-left: 50px;
-        }
-        .certificate{
-            text-align: center;
-        }
-        .certificate img{
-            width: 300px;
-        }
-    </style>
-</head>
-
-<body>
-    <div id="container">
-        <header>
-            <h1 class="glyphicon glyphicon-briefcase"> Resume</h1>
-        </header>
-        <section>
-            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
-                <span class="glyphicon glyphicon-user"></span> 基本信息
-            </button>
-            <div>
-                <img src="images/zcw.jpg" style="width: 160px;;" alt="证件照">
-            </div>
-            <div>
-                <h1>侯庆帅</h1>
-                <div class="basic-info">
-                    <span class="glyphicon glyphicon-flag"> 目前正在找工作</span>
-                    <span class="glyphicon glyphicon-phone"> 19110292092</span>
-                    <span class="glyphicon glyphicon-envelope"> hqstask@163.com</span>
+        <div id="page">
+            <header
+                id="fh5co-header"
+                class="fh5co-cover js-fullheight"
+                role="banner"
+                style="background-image: url(images/cover_bg_3.jpg)"
+                data-stellar-background-ratio="0.5"
+            >
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="display-t js-fullheight">
+                                <div
+                                    class="display-tc js-fullheight animate-box"
+                                    data-animate-effect="fadeIn"
+                                >
+                                    <div
+                                        class="profile-thumb"
+                                        style="background: url(images/user-3.jpg)"
+                                    ></div>
+                                    <h1><span>侯庆帅</span></h1>
+                                    <h3><span>Web 工程师 / 设计师</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="basic-info">
-                    <span class="glyphicon glyphicon-user"> 男</span>
-                    <span class="glyphicon glyphicon-time"> 26岁</span>
-                    <span class="glyphicon glyphicon-send"> 3年工作经验</span>
-                </div>
-                <div class="basic-info">
-                    <span class="glyphicon glyphicon-tags" > 河北石油职业技术大学</span>
-                    <span class="glyphicon glyphicon-tags"> 计算机与信息工程系</span>
-                </div>
-            </div>
-        </section>
-        <section>
-            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
-                <span class="glyphicon glyphicon-bookmark"></span> 求职意向
-            </button>
+            </header>
 
-            <table class="table table-bordered">
-                <tr>
-                    <td style="width: 15%;">期望薪资：</td>
-                    <td style="width: 35%;">10k-13k 元/月</td>
-                    <td style="width: 15%;">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点：</td>
-                    <td style="width: 35%;">沧州 </td>
-                </tr>
-                <tr>
-                    <td>职能/职位：</td>
-                    <td>前端工程师 </td>
-                    <td>行&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业： </td>
-                    <td>软件开发/实施/运维 </td>
-                </tr>
-                <tr>
-                    <td>到岗时间：</td>
-                    <td>1周内</td>
-                    <td>工作类型：</td>
-                    <td>全职 </td>
-                </tr>
-            </table>
-            <div>
-                <h3  style="padding-left: 50px;">自我评价</h3>
-                <div style="padding-left: 100px;">
-                    <ul class="skills">
-                        <li>1、熟练掌握Java语言基础，<code>Java 8</code>新特性及文件IO技术、多线程、<code>XML</code>解析、反射、代理</li>
-                        <li>2、熟练掌握 <code>MySql</code>、<code>SQL-Server</code> 数据库；</li>
-                        <li>3、熟练掌握 <code>Eclipse</code>,熟悉<code>IntelliJ IDEA</code>开发工具，熟悉 <code>Git</code> 版本控制工具；
-                        </li>
-                        <li>4、熟练掌握Java基础技术 <code>Jsp</code>、异步数据交互、<code>Servlet</code>、<code>Jdbc</code>；熟练掌握 Web
-                            应用系统开发，具备的独立开发能力；</li>
-                        <li>5、熟练掌握
-                            <code>JavaScript</code>、<code>Ajax</code>、<code>JQuery</code>、<code>BootStrap</code>、<code>HTML5</code>
-                            <code>H5动画</code>等 WEB
-                            前端技术；熟练使用<code>vscodes</code>、<code>WebStorm</code>等前端开发工具；熟悉 <code>admin-lte</code> <code>nodejs</code>、<code>ES6</code>;了解<code>vue-cli</code>
-                        </li>
-                        <li>6、熟悉 <code>Git</code>、<code>Maven</code> 管理项目管理、构建工具；</li>
-                    </ul>
+            <div id="fh5co-about" class="animate-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>关于我</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="info">
+                                <li>
+                                    <span class="first-block">Full Name:</span>
+                                    <span class="second-block">侯庆帅</span>
+                                </li>
+                                <li>
+                                    <span class="first-block">Phone:</span>
+                                    <span class="second-block">+86 176 3201 4088</span>
+                                </li>
+                                <li>
+                                    <span class="first-block">Email:</span>
+                                    <span class="second-block">472172082@qq.com</span>
+                                </li>
+                                <li>
+                                    <span class="first-block">Website:</span>
+                                    <span class="second-block">http://hqs.houqs.top/</span>
+                                </li>
+                                <li>
+                                    <span class="first-block">Address:</span>
+                                    <span class="second-block">河北省泊头市都市海棠</span>
+                                </li>
+                                <li>
+                                    <span class="first-block">School:</span>
+                                    <span class="second-block">承德石油职业技术大学</span>
+                                </li>
+                                <li>
+                                    <span class="first-block">Department:</span>
+                                    <span class="second-block">计算机与信息工程系</span>
+                                </li>
+                                <li>
+                                    <span class="first-block">Major:</span>
+                                    <span class="second-block">计算机应用</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Hello There!</h2>
+                            <p>
+                                There live the blind texts far from the countries Vokalia and
+                                Consonantia, there live the blind texts. Separated they live in
+                                bookmarksgrove there live the blind texts far from the countries.
+                            </p>
+                            <p>
+                                Far far away, behind the word mountains, Quos quia provident
+                                consequuntur culpa facere ratione maxime commodi voluptates id
+                                repellat velit eaque aspernatur expedita. Possimus itaque adipisci
+                                there live the blind texts from the countries Vokalia and
+                                Consonantia, there live the blind texts. Quos quia provident
+                                consequuntur culpa facere ratione maxime commodi voluptates id
+                                repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <div id="fh5co-resume" class="fh5co-bg-color">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>我的简历</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-md-offset-0">
+                            <ul class="timeline">
+                                <li class="timeline-heading text-center animate-box">
+                                    <div><h3>工作经验</h3></div>
+                                </li>
+                                <li class="animate-box timeline-unverted">
+                                    <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">项目策划</h3>
+                                            <span class="company">
+                                                中国兵器工业集团有限公司 - 2020.12 - 2021.09
+                                            </span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>涉密</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted animate-box">
+                                    <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">产品经理 / 前端工程师</h3>
+                                            <span class="company">
+                                                浙江鼎奕科技发展有限公司 - 2019.01 - 2020.11
+                                            </span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>
+                                                Far far away, behind the word mountains, they live
+                                                in Bookmarksgrove right at the coast of the
+                                                Semantics, a large language ocean.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="animate-box timeline-unverted">
+                                    <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">在线客服</h3>
+                                            <span class="company">
+                                                小米科技责任有限公司 - 2018.8 - 2018.12
+                                            </span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>
+                                                Far far away, behind the word mountains, far from
+                                                the countries Vokalia and Consonantia, there live
+                                                the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
 
-
-        </section>
-        <section>
-            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
-                <span class="glyphicon glyphicon-bookmark"></span> 工作经历
-            </button>
-            <div class="experice">
-                <dl class="dl-horizontal">
-                    <dt>时间：</dt>
-                    <dd>xxxx-xx至今[xx个月]</dd>
-                    <dt>企业：</dt>
-                    <dd>xxxxxxxxxxxx</dd>
-                    <dt>职位：</dt>
-                    <dd>xxxxxxxxxxx</dd>
-                    <dt>工作描述：x</dt>
-                    <dd>xxxxxxxxxxx </dd>
-                </dl>
-                <hr>
-                <dl class="dl-horizontal">
-                    <dt>时间：</dt>
-                    <dd>xxxx-xx至今[xx个月]</dd>
-                    <dt>企业：</dt>
-                    <dd>xxxxxxxxxxxx</dd>
-                    <dt>职位：</dt>
-                    <dd>xxxxxxxxxxx</dd>
-                    <dt>工作描述：x</dt>
-                    <dd>xxxxxxxxxxx </dd>
-                </dl>
-                <hr>
-                <dl class="dl-horizontal">
-                    <dt>时间：</dt>
-                    <dd>xxxx-xx至今[xx个月]</dd>
-                    <dt>企业：</dt>
-                    <dd>小米科技有限责任公司</dd>
-                    <dt>职位：</dt>
-                    <dd>一线客服</dd>
-                    <dt>工作描述：</dt>
-                    <dd>阿斯达所多 </dd>
-                </dl>
-            </div>
-        </section>
-
-
-        <section>
-            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
-                <span class="glyphicon glyphicon-bookmark"></span> 项目经验
-            </button>
-            <div>
-                <h3 style="padding-left: 50px;">微潮科技企业客户管理系统<small>xxx有限公司</small></h3>
-                <div style="padding-left: 100px;">
-                    <p>
-                        <dl>
-                            <dt>ttttttttt</dt>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dt>ttttttttt</dt>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dt>ttttttttt</dt>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            </dl>
-                    </p>
-                    <p>
-
-                    </p>
-
+                                <br />
+                                <li class="timeline-heading text-center animate-box">
+                                    <div><h3>Education</h3></div>
+                                </li>
+                                <li class="timeline-inverted animate-box">
+                                    <div class="timeline-badge">
+                                        <i class="icon-graduation-cap"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">Masters Degree</h3>
+                                            <span class="company">
+                                                University Name - 2007 - 2009
+                                            </span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>
+                                                Far far away, behind the word mountains, they live
+                                                in Bookmarksgrove right at the coast of the
+                                                Semantics, a large language ocean.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="animate-box timeline-unverted">
+                                    <div class="timeline-badge">
+                                        <i class="icon-graduation-cap"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">Bachelors Degree</h3>
+                                            <span class="company">
+                                                University Name - 2002 - 2006
+                                            </span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>
+                                                Far far away, behind the word mountains, far from
+                                                the countries Vokalia and Consonantia, there live
+                                                the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted animate-box">
+                                    <div class="timeline-badge">
+                                        <i class="icon-graduation-cap"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">Diploma Course</h3>
+                                            <span class="company">College Name - 1999 - 2001</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>
+                                                Far far away, behind the word mountains, they live
+                                                in Bookmarksgrove right at the coast of the
+                                                Semantics, a large language ocean.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="animate-box timeline-unverted">
+                                    <div class="timeline-badge">
+                                        <i class="icon-graduation-cap"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h3 class="timeline-title">Graduation</h3>
+                                            <span class="company">College Name - 1994 - 1998</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>
+                                                Far far away, behind the word mountains, far from
+                                                the countries Vokalia and Consonantia, there live
+                                                the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <div id="fh5co-features" class="animate-box">
+                <div class="container">
+                    <div class="services-padding">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                                <h2>My Services</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="icon-paintbrush"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Web Design</h3>
+                                        <p>
+                                            Facilis ipsum reprehenderit nemo molestias. Aut cum
+                                            mollitia reprehenderit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-            <div>
-                <h3 style="padding-left: 50px;">好好学习科技企业资源管理系统<small>xxx有限公司</small></h3>
-                <div style="padding-left: 100px;">
-                    <p>
-                        <dl>
-                            <dt>ttttttttt</dt>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dt>ttttttttt</dt>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dt>ttttttttt</dt>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
-                            </dl>
-                    </p>
-                    <p>
+                            <div class="col-md-4 text-center">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="icon-briefcase"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Branding</h3>
+                                        <p>
+                                            Facilis ipsum reprehenderit nemo molestias. Aut cum
+                                            mollitia reprehenderit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="icon-search"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Analytics</h3>
+                                        <p>
+                                            Facilis ipsum reprehenderit nemo molestias. Aut cum
+                                            mollitia reprehenderit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                    </p>
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="icon-bargraph"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Web Developent</h3>
+                                        <p>
+                                            Facilis ipsum reprehenderit nemo molestias. Aut cum
+                                            mollitia reprehenderit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="col-md-4 text-center">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="icon-genius"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Web Marketing</h3>
+                                        <p>
+                                            Facilis ipsum reprehenderit nemo molestias. Aut cum
+                                            mollitia reprehenderit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="feature-left">
+                                    <span class="icon">
+                                        <i class="icon-chat"></i>
+                                    </span>
+                                    <div class="feature-copy">
+                                        <h3>Support</h3>
+                                        <p>
+                                            Facilis ipsum reprehenderit nemo molestias. Aut cum
+                                            mollitia reprehenderit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
 
-        <section>
-            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
-                <span class="glyphicon glyphicon-bookmark"></span> 教育经历
-            </button>
-            <table class="table table-bordered">
-                    <tr>
-                        <td>时间：</td>
-                        <td>xxxx</td>
-                        <td>学校：</td>
-                        <td>河北石油职业技术大学</td>
-                        <td>专业：</td>
-                        <td>计算机与信息工程系</td>
-                        <td>计算机应用专业</td>
-                        
-                    </tr>
-                    <tr>
-                        <td colspan="7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos culpa ab ex eligendi nobis doloribus deserunt aut inventore ea, voluptate animi quas vitae alias maiores officiis eaque, fugiat est!</td>
-                    </tr>
+            <div id="fh5co-skills" class="animate-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>Skills</h2>
+                        </div>
+                    </div>
+                    <div class="row row-pb-md">
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="95">
+                                <span>
+                                    <strong>HTML5</strong>
+                                    95%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="93">
+                                <span>
+                                    <strong>CSS3</strong>
+                                    93%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="90">
+                                <span>
+                                    <strong>jQuery</strong>
+                                    90%
+                                </span>
+                            </div>
+                        </div>
 
-                </table>
-        </section>
-        <section>
-                <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
-                    <span class="glyphicon glyphicon-bookmark"></span>技能特长、证书
-                </button>
-                <table class="table table-bordered">
-                        <tr>
-                            <td>语言：</td>
-                            <td>英语：<code>cet-6</code></td>
-                            <td>计算机：</td>
-                            <td><code>二级C</code></td>
-                        </tr>
-                </table>
-                <div class="certificate">
-                    <img  src="images/xuewei.png" alt="学位证书">
-                    <img src="images/毕业.png" alt="毕业证书">
-                    <img src="images/cet-6.png" alt="英语六级证书">
-                    <img src="images/erjic.png" alt="计算机二级证书">
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="89">
+                                <span>
+                                    <strong>PHP</strong>
+                                    89%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="85">
+                                <span>
+                                    <strong>MySQL</strong>
+                                    85%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="90">
+                                <span>
+                                    <strong>AngularJS</strong>
+                                    90%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="85">
+                                <span>
+                                    <strong>Ruby</strong>
+                                    85%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="90">
+                                <span>
+                                    <strong>Java</strong>
+                                    90%
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">HTML5/CSS3</span>
+                                    <span class="value-right">95%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="
+                                            progress-bar progress-bar-1 progress-bar-striped
+                                            active
+                                        "
+                                        role="progressbar"
+                                        aria-valuenow="90"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 90%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">WordPress</span>
+                                    <span class="value-right">90%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="
+                                            progress-bar progress-bar-2 progress-bar-striped
+                                            active
+                                        "
+                                        role="progressbar"
+                                        aria-valuenow="90"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 90%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">PHP</span>
+                                    <span class="value-right">80%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="
+                                            progress-bar progress-bar-3 progress-bar-striped
+                                            active
+                                        "
+                                        role="progressbar"
+                                        aria-valuenow="80"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 80%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">Java</span>
+                                    <span class="value-right">85%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="
+                                            progress-bar progress-bar-4 progress-bar-striped
+                                            active
+                                        "
+                                        role="progressbar"
+                                        aria-valuenow="85"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 85%"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">Design</span>
+                                    <span class="value-right">100%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="
+                                            progress-bar progress-bar-5 progress-bar-striped
+                                            active
+                                        "
+                                        role="progressbar"
+                                        aria-valuenow="100"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 100%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">Ruby</span>
+                                    <span class="value-right">70%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="progress-bar progress-bar-striped active"
+                                        role="progressbar"
+                                        aria-valuenow="70"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 70%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">Python</span>
+                                    <span class="value-right">85%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="
+                                            progress-bar progress-bar-1 progress-bar-striped
+                                            active
+                                        "
+                                        role="progressbar"
+                                        aria-valuenow="85"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 85%"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="progress-wrap">
+                                <h3>
+                                    <span class="name-left">jQuery</span>
+                                    <span class="value-right">75%</span>
+                                </h3>
+                                <div class="progress">
+                                    <div
+                                        class="
+                                            progress-bar progress-bar-3 progress-bar-striped
+                                            active
+                                        "
+                                        role="progressbar"
+                                        aria-valuenow="75"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                        style="width: 75%"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-            </section>
-    </div>
-</body>
+            <div id="fh5co-work" class="fh5co-bg-dark">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>Work</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-1.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Illustration</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-2.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Brading</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-3.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Illustration</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-4.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Design</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-5.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Website</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-6.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Illustration</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-7.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Brading</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 text-center col-padding animate-box">
+                            <a
+                                href="#"
+                                class="work"
+                                style="background-image: url(images/portfolio-8.jpg)"
+                            >
+                                <div class="desc">
+                                    <h3>Project Name</h3>
+                                    <span>Illustration</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div id="fh5co-blog">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>Post on Medium</h2>
+                            <p>
+                                Dignissimos asperiores vitae velit veniam totam fuga molestias
+                                accusamus alias autem provident. Odit ab aliquam dolor eius.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="fh5co-blog animate-box">
+                                <a
+                                    href="#"
+                                    class="blog-bg"
+                                    style="background-image: url(images/portfolio-1.jpg)"
+                                ></a>
+                                <div class="blog-text">
+                                    <span class="posted_on">Mar. 15th 2016</span>
+                                    <h3><a href="#">Photoshoot On The Street</a></h3>
+                                    <p>
+                                        Far far away, behind the word mountains, far from the
+                                        countries Vokalia and Consonantia, there live the blind
+                                        texts.
+                                    </p>
+                                    <ul class="stuff">
+                                        <li>
+                                            <i class="icon-heart2"></i>
+                                            249
+                                        </li>
+                                        <li>
+                                            <i class="icon-eye2"></i>
+                                            308
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Read More
+                                                <i class="icon-arrow-right22"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="fh5co-blog animate-box">
+                                <a
+                                    href="#"
+                                    class="blog-bg"
+                                    style="background-image: url(images/portfolio-2.jpg)"
+                                ></a>
+                                <div class="blog-text">
+                                    <span class="posted_on">Mar. 15th 2016</span>
+                                    <h3><a href="#">Surfing at Philippines</a></h3>
+                                    <p>
+                                        Far far away, behind the word mountains, far from the
+                                        countries Vokalia and Consonantia, there live the blind
+                                        texts.
+                                    </p>
+                                    <ul class="stuff">
+                                        <li>
+                                            <i class="icon-heart2"></i>
+                                            249
+                                        </li>
+                                        <li>
+                                            <i class="icon-eye2"></i>
+                                            308
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Read More
+                                                <i class="icon-arrow-right22"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="fh5co-blog animate-box">
+                                <a
+                                    href="#"
+                                    class="blog-bg"
+                                    style="background-image: url(images/portfolio-3.jpg)"
+                                ></a>
+                                <div class="blog-text">
+                                    <span class="posted_on">Mar. 15th 2016</span>
+                                    <h3><a href="#">Capture Living On Uderwater</a></h3>
+                                    <p>
+                                        Far far away, behind the word mountains, far from the
+                                        countries Vokalia and Consonantia, there live the blind
+                                        texts.
+                                    </p>
+                                    <ul class="stuff">
+                                        <li>
+                                            <i class="icon-heart2"></i>
+                                            249
+                                        </li>
+                                        <li>
+                                            <i class="icon-eye2"></i>
+                                            308
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Read More
+                                                <i class="icon-arrow-right22"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fh5co-started" class="fh5co-bg-dark">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>Hire Me!</h2>
+                            <p>
+                                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                                reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+                            </p>
+                            <p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fh5co-consult">
+                <div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg)">
+                    <div class="overlay"></div>
+                </div>
+                <div class="choose animate-box">
+                    <h2>Contact</h2>
+                    <form action="#">
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <input
+                                    type="text"
+                                    id="fname"
+                                    class="form-control"
+                                    placeholder="Your firstname"
+                                />
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <input
+                                    type="text"
+                                    id="lname"
+                                    class="form-control"
+                                    placeholder="Your lastname"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input
+                                    type="text"
+                                    id="email"
+                                    class="form-control"
+                                    placeholder="Your email address"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    class="form-control"
+                                    placeholder="Your subject of this message"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    cols="30"
+                                    rows="10"
+                                    class="form-control"
+                                    placeholder="Say something about us"
+                                ></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="map" class="fh5co-map"></div>
+        </div>
+
+        <div id="fh5co-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            Copyright &copy; 2017.Company name All rights reserved.
+                            <a target="_blank" href="http://sc.chinaz.com/moban/">
+                                &#x7F51;&#x9875;&#x6A21;&#x677F;
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gototop js-top">
+            <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+        </div>
+
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Stellar Parallax -->
+        <script src="js/jquery.stellar.min.js"></script>
+        <!-- Easy PieChart -->
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <!-- Google Map -->
+        <!---<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>--->
+        <script src="js/google_map.js"></script>
+
+        <!-- Main -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
