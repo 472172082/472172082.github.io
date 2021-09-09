@@ -1472,9 +1472,7 @@ pre code {
     .col-md-12 {
         float: left;
     }
-    .nonenone {
-        display: none;
-    }
+
     .col-md-1 {
         width: 8.33333%;
     }
