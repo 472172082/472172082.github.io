@@ -1,1 +1,325 @@
-<h1>helloworld</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-size: 18px;
+        }
+
+        h {
+            color: white;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #container {
+            margin: 20px;
+            border: 2px solid #D9D9D9;
+            background-color: #F5F6FB;
+            padding: 20px;
+        }
+
+        header h1 {
+            background-color: #337AB7;
+            padding-left: 100px;
+            margin-bottom: 5px;
+            color: white;
+            height: 80px;
+            line-height: 80px;
+            font-size: 80px;
+            border-radius: 0px 40px 40px 0px;
+            width: 900px;
+            vertical-align: middle;
+        }
+
+        section {
+            position: relative;
+            border: 2px solid #D9D9D9;
+            margin-top: 50px;
+            padding-top: 35px;
+        }
+
+        section:nth-of-type(1) {
+            padding-top: 30px;
+            border: 2px solid #D9D9D9;
+            margin-top: 30px;
+        }
+
+        section:nth-of-type(1)>div:nth-of-type(1) {
+            display: inline-block;
+            width: 200px;
+        }
+
+        section:nth-of-type(1)>div:nth-of-type(2) {
+            display: inline-block;
+            width: 700px;
+            vertical-align: middle;
+
+        }
+
+        .tab-label {
+            position: absolute;
+            left: -2;
+            top: -24px;
+        }
+
+        .basic-info {
+            margin-top: 30px;
+        }
+
+        .basic-info span {
+            display: inline-block;
+            width: 218px;
+            margin-left: 10px;
+        }
+
+        .skills li {
+            margin-top: 6px;
+        }
+        .experice{
+            margin-left: 50px;
+        }
+        .experice dd{
+            margin-left: 50px;
+        }
+        .certificate{
+            text-align: center;
+        }
+        .certificate img{
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1 class="glyphicon glyphicon-briefcase"> Resume</h1>
+        </header>
+        <section>
+            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
+                <span class="glyphicon glyphicon-user"></span> 基本信息
+            </button>
+            <div>
+                <img src="images/zcw.jpg" style="width: 160px;;" alt="证件照">
+            </div>
+            <div>
+                <h1>侯庆帅</h1>
+                <div class="basic-info">
+                    <span class="glyphicon glyphicon-flag"> 目前正在找工作</span>
+                    <span class="glyphicon glyphicon-phone"> 19110292092</span>
+                    <span class="glyphicon glyphicon-envelope"> hqstask@163.com</span>
+                </div>
+                <div class="basic-info">
+                    <span class="glyphicon glyphicon-user"> 男</span>
+                    <span class="glyphicon glyphicon-time"> 26岁</span>
+                    <span class="glyphicon glyphicon-send"> 3年工作经验</span>
+                </div>
+                <div class="basic-info">
+                    <span class="glyphicon glyphicon-tags" > 河北石油职业技术大学</span>
+                    <span class="glyphicon glyphicon-tags"> 计算机与信息工程系</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
+                <span class="glyphicon glyphicon-bookmark"></span> 求职意向
+            </button>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td style="width: 15%;">期望薪资：</td>
+                    <td style="width: 35%;">10k-13k 元/月</td>
+                    <td style="width: 15%;">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点：</td>
+                    <td style="width: 35%;">沧州 </td>
+                </tr>
+                <tr>
+                    <td>职能/职位：</td>
+                    <td>前端工程师 </td>
+                    <td>行&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业： </td>
+                    <td>软件开发/实施/运维 </td>
+                </tr>
+                <tr>
+                    <td>到岗时间：</td>
+                    <td>1周内</td>
+                    <td>工作类型：</td>
+                    <td>全职 </td>
+                </tr>
+            </table>
+            <div>
+                <h3  style="padding-left: 50px;">自我评价</h3>
+                <div style="padding-left: 100px;">
+                    <ul class="skills">
+                        <li>1、熟练掌握Java语言基础，<code>Java 8</code>新特性及文件IO技术、多线程、<code>XML</code>解析、反射、代理</li>
+                        <li>2、熟练掌握 <code>MySql</code>、<code>SQL-Server</code> 数据库；</li>
+                        <li>3、熟练掌握 <code>Eclipse</code>,熟悉<code>IntelliJ IDEA</code>开发工具，熟悉 <code>Git</code> 版本控制工具；
+                        </li>
+                        <li>4、熟练掌握Java基础技术 <code>Jsp</code>、异步数据交互、<code>Servlet</code>、<code>Jdbc</code>；熟练掌握 Web
+                            应用系统开发，具备的独立开发能力；</li>
+                        <li>5、熟练掌握
+                            <code>JavaScript</code>、<code>Ajax</code>、<code>JQuery</code>、<code>BootStrap</code>、<code>HTML5</code>
+                            <code>H5动画</code>等 WEB
+                            前端技术；熟练使用<code>vscodes</code>、<code>WebStorm</code>等前端开发工具；熟悉 <code>admin-lte</code> <code>nodejs</code>、<code>ES6</code>;了解<code>vue-cli</code>
+                        </li>
+                        <li>6、熟悉 <code>Git</code>、<code>Maven</code> 管理项目管理、构建工具；</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section>
+            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
+                <span class="glyphicon glyphicon-bookmark"></span> 工作经历
+            </button>
+            <div class="experice">
+                <dl class="dl-horizontal">
+                    <dt>时间：</dt>
+                    <dd>xxxx-xx至今[xx个月]</dd>
+                    <dt>企业：</dt>
+                    <dd>xxxxxxxxxxxx</dd>
+                    <dt>职位：</dt>
+                    <dd>xxxxxxxxxxx</dd>
+                    <dt>工作描述：x</dt>
+                    <dd>xxxxxxxxxxx </dd>
+                </dl>
+                <hr>
+                <dl class="dl-horizontal">
+                    <dt>时间：</dt>
+                    <dd>xxxx-xx至今[xx个月]</dd>
+                    <dt>企业：</dt>
+                    <dd>xxxxxxxxxxxx</dd>
+                    <dt>职位：</dt>
+                    <dd>xxxxxxxxxxx</dd>
+                    <dt>工作描述：x</dt>
+                    <dd>xxxxxxxxxxx </dd>
+                </dl>
+                <hr>
+                <dl class="dl-horizontal">
+                    <dt>时间：</dt>
+                    <dd>xxxx-xx至今[xx个月]</dd>
+                    <dt>企业：</dt>
+                    <dd>小米科技有限责任公司</dd>
+                    <dt>职位：</dt>
+                    <dd>一线客服</dd>
+                    <dt>工作描述：</dt>
+                    <dd>阿斯达所多 </dd>
+                </dl>
+            </div>
+        </section>
+
+
+        <section>
+            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
+                <span class="glyphicon glyphicon-bookmark"></span> 项目经验
+            </button>
+            <div>
+                <h3 style="padding-left: 50px;">微潮科技企业客户管理系统<small>xxx有限公司</small></h3>
+                <div style="padding-left: 100px;">
+                    <p>
+                        <dl>
+                            <dt>ttttttttt</dt>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dt>ttttttttt</dt>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dt>ttttttttt</dt>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            </dl>
+                    </p>
+                    <p>
+
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div>
+                <h3 style="padding-left: 50px;">好好学习科技企业资源管理系统<small>xxx有限公司</small></h3>
+                <div style="padding-left: 100px;">
+                    <p>
+                        <dl>
+                            <dt>ttttttttt</dt>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dt>ttttttttt</dt>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dt>ttttttttt</dt>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
+                            </dl>
+                    </p>
+                    <p>
+
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
+                <span class="glyphicon glyphicon-bookmark"></span> 教育经历
+            </button>
+            <table class="table table-bordered">
+                    <tr>
+                        <td>时间：</td>
+                        <td>xxxx</td>
+                        <td>学校：</td>
+                        <td>河北石油职业技术大学</td>
+                        <td>专业：</td>
+                        <td>计算机与信息工程系</td>
+                        <td>计算机应用专业</td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos culpa ab ex eligendi nobis doloribus deserunt aut inventore ea, voluptate animi quas vitae alias maiores officiis eaque, fugiat est!</td>
+                    </tr>
+
+                </table>
+        </section>
+        <section>
+                <button type="button" class="btn btn-primary btn-lg tab-label" style="text-shadow: black 5px 3px 3px;">
+                    <span class="glyphicon glyphicon-bookmark"></span>技能特长、证书
+                </button>
+                <table class="table table-bordered">
+                        <tr>
+                            <td>语言：</td>
+                            <td>英语：<code>cet-6</code></td>
+                            <td>计算机：</td>
+                            <td><code>二级C</code></td>
+                        </tr>
+                </table>
+                <div class="certificate">
+                    <img  src="images/xuewei.png" alt="学位证书">
+                    <img src="images/毕业.png" alt="毕业证书">
+                    <img src="images/cet-6.png" alt="英语六级证书">
+                    <img src="images/erjic.png" alt="计算机二级证书">
+                </div>
+
+            </section>
+    </div>
+</body>
+
+</html>
