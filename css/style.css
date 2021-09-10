@@ -321,7 +321,31 @@ figure {
 .fh5co-bg-dark .fh5co-heading h2 {
     color: #fff !important;
 }
-
+.fh5co-bg-dark .ho:hover::before,
+.fh5co-bg-dark .ho:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.fh5co-bg-dark .ho:hover::before {
+    left: 0;
+    text-align: left;
+    padding: 0 2em;
+    line-height: 100px;
+    content: "T:19110292092\A E:hqstask@163.com";
+    white-space: pre;
+    color: #fff;
+    background: rgba(72, 162, 255, 0.8);
+}
+.fh5co-bg-dark .ho:hover::after {
+    content: "WeChat";
+    background: url(../images/WX.jpg);
+    background-size: cover;
+    right: 0;
+}
 .info {
     margin: 0;
     padding: 0;
