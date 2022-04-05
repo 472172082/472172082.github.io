@@ -331,17 +331,17 @@ figure {
     border-radius: 5px;
 }
 .fh5co-bg-dark .ho:hover::before {
+    font: bold 16px/20px arial, sans-serif;
     left: 0;
     text-align: left;
-    padding: 0 2em;
+    padding: 0 0 0 1em;
     line-height: 100px;
-    content: "T:19110292092\A E:hqstask@163.com";
+    content: "T:19110292092 \A E:tim99999@qq.com";
     white-space: pre;
     color: #fff;
-    background: rgba(72, 162, 255, 0.8);
 }
 .fh5co-bg-dark .ho:hover::after {
-    content: "WeChat";
+    content: "";
     background: url(../images/WX.jpg);
     background-size: cover;
     right: 0;
