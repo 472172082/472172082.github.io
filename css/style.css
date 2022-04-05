@@ -333,7 +333,7 @@ figure {
 .fh5co-bg-dark .ho:hover::before {
     left: 0;
     text-align: left;
-    padding: 0 2em;
+    padding: 0 0 0 1em;
     line-height: 100px;
     content: "T:19110292092\A E:hqstask@163.com";
     white-space: pre;
